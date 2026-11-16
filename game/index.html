@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wispwarden — Guard the Last Ember</title>
+<link rel="icon" href="data:,">
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #070B1C;
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  }
+  #game {
+    display: block;
+    background: #101A36;
+    border-radius: 8px;
+    cursor: crosshair;
+    touch-action: none;
+  }
+  #status {
+    margin-top: 6px;
+    color: #B8C8D9;
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    user-select: none;
+  }
+</style>
+</head>
+<body>
+<canvas id="game" width="1280" height="720" role="img"
+  aria-label="Wispwarden game canvas: guard the Last Ember from waves of shades"></canvas>
+<p id="status">Wispwarden — WASD / arrows move · Mouse aims · Hold click / Space to fire · P pauses · M mutes</p>
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>

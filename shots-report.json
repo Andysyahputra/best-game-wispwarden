@@ -1,0 +1,30 @@
+[
+  {
+    "name": "1-start.jpg",
+    "bytes": 71121,
+    "quality": 88,
+    "digest": "aff8431e",
+    "step": 120
+  },
+  {
+    "name": "2-play.jpg",
+    "bytes": 51045,
+    "quality": 88,
+    "digest": "fea536c3",
+    "step": 2195
+  },
+  {
+    "name": "3-upgrade.jpg",
+    "bytes": 95268,
+    "quality": 88,
+    "digest": "9de61cb0",
+    "step": 2094
+  },
+  {
+    "name": "4-end.jpg",
+    "bytes": 59985,
+    "quality": 88,
+    "digest": "b339258e",
+    "step": 2938
+  }
+]
